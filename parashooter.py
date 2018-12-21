@@ -97,7 +97,7 @@ class Bullet(pygame.sprite.Sprite):
  
 
 
-spawn_delay = 2
+spawn_delay = 6
 # last_spawn  = 0
 
 def spawn(state):
@@ -170,8 +170,7 @@ def main():
             pygame.quit()
             sys.exit()
         clock.tick(FPS)
-
-        
+    
 
 if __name__ == '__main__':
     main()

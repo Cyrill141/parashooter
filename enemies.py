@@ -8,7 +8,7 @@ from lib import get_angle, get_velocity
 class Enemy(pygame.sprite.Sprite):
     damage = 1
     throw_distance = 100
-    move_speed = 1 
+    move_speed = 2
     def __init__(self, state):
         width, height = state.sc.get_size()
         pygame.sprite.Sprite.__init__(self)
